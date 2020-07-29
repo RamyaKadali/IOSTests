@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="61f6b5f6-c0a4-4d39-8558-76726e547973"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delay2s"
+	namespace="IOSTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="6694add8-08c2-4c6d-ad96-0fca36173ec2"
+	name="IOSTestRepository"
+	relativepath="IOSTestRepository.rxrep">
+		<codegen
+		classname="IOSTestRepository"
+		namespace="IOSTest">
+		</codegen>
+		<rootfolder
+		id="bf094d01-1d63-4f5c-9a80-d7dbb45fb09a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delay2s.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

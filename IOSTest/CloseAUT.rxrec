@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0ff71d78-9fcf-45d9-be43-f2f51fbcf234"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="IOSTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="a9ebc359-81c4-44b0-b53e-0192bb466b6b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e8d0d8ac-7057-4926-8087-e17a4e82d090"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="mobileapp, iosapp"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="mobileapp"
+				rect="0,0,414,896"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="devicename"
+					type="System.String">
+						RamyaKadaliâ€™s iPhone
+					</attribute>
+					<attribute
+					name="deviceorientation"
+					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
+						Portrait
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						EdgeVis Client
+					</attribute>
+					<attribute
+					name="osversion"
+					type="System.String">
+						iOS 13.6
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						com.digitalbarriers.EdgeVis-Client
+					</attribute>
+					<attribute
+					name="versioncode"
+					type="System.String">
+						14590
+					</attribute>
+					<attribute
+					name="versionname"
+					type="System.String">
+						8.0.0
+					</attribute>
+					<limitation
+					helpUrl="https://www.ranorex.com/help/v9.3/web-mobile-testing/mobile-testing-2/mobile-testing/#mobiletesting-versioning"
+					name="RanorexDeviceVersionMismatchWarning"
+					technology="Mobile">
+						Device ‘RamyaKadaliâ€™s iPhone’ runs service app version ‘3.0.0’. It is recommended to update the service by installing the latest version ‘3.1.0’ from ‘https://www.ranorex.com/free-trial/mobile-download-archive.html’.
+					</limitation>
+				</element>
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6694add8-08c2-4c6d-ad96-0fca36173ec2"
+	name="IOSTestRepository"
+	relativepath="IOSTestRepository.rxrep">
+		<codegen
+		classname="IOSTestRepository"
+		namespace="IOSTest">
+		</codegen>
+		<rootfolder
+		id="bf094d01-1d63-4f5c-9a80-d7dbb45fb09a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

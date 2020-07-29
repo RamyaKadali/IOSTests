@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dfbd3fb3-7e22-4da5-85c8-6be8e7f61e24"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validation"
+	namespace="IOSTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.digitalbarriers.EdgeVis-Client"
+		devicename="Current Endpoint (RamyaKadaliâ€™s iPhone)"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+		<runmobileapprecorditem
+		application="com.digitalbarriers.EdgeVis-Client"
+		devicename="Current Endpoint (RamyaKadaliâ€™s iPhone)"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="6694add8-08c2-4c6d-ad96-0fca36173ec2"
+	name="IOSTestRepository"
+	relativepath="IOSTestRepository.rxrep">
+		<codegen
+		classname="IOSTestRepository"
+		namespace="IOSTest">
+		</codegen>
+		<rootfolder
+		id="bf094d01-1d63-4f5c-9a80-d7dbb45fb09a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

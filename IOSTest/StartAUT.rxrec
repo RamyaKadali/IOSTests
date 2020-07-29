@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b838f5a0-55ec-4ba5-91f8-bcd8e23ed3bb"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="IOSTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.digitalbarriers.EdgeVis-Client"
+		devicename="iPhone"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="6694add8-08c2-4c6d-ad96-0fca36173ec2"
+	name="IOSTestRepository"
+	relativepath="IOSTestRepository.rxrep">
+		<codegen
+		classname="IOSTestRepository"
+		namespace="IOSTest">
+		</codegen>
+		<rootfolder
+		id="bf094d01-1d63-4f5c-9a80-d7dbb45fb09a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

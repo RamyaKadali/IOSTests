@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f6cd7df7-8b9b-40ab-8944-b67e5c73de29"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Logout_Click"
+	namespace="IOSTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="300ms"
+		elementlocation="Center"
+		enabled="True"
+		fingerid="0"
+		isremote="False"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		screenshotname=""
+		searchpropertyid="4aaea4d7-077c-4ca7-b84d-25c0f82fb33d"
+		sx="0"
+		sy="0"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f3201539-4a7b-4841-8b3d-c842e99db5cd"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="ioselement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="173,239,217,30"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Log out TestA
+					</attribute>
+					<attribute
+					name="controltag"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="accessibilitylabel"
+					type="System.String">
+						Log out TestA
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						UILabel
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						1621595648
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.digitalbarriers.EdgeVis-Client']/form//table/?/?/cell[@accessibilitylabel='Log out TestA']/text[@accessibilitylabel='Log out TestA']
+				</path>
+			</info>
+		</touchrecorditem>
+	</recorditems>
+	<repository
+	id="6694add8-08c2-4c6d-ad96-0fca36173ec2"
+	name="IOSTestRepository"
+	relativepath="IOSTestRepository.rxrep">
+		<codegen
+		classname="IOSTestRepository"
+		namespace="IOSTest">
+		</codegen>
+		<rootfolder
+		id="bf094d01-1d63-4f5c-9a80-d7dbb45fb09a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Logout_Click.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
